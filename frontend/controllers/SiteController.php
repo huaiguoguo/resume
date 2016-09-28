@@ -1,21 +1,17 @@
 <?php
 namespace frontend\controllers;
 
-
 use common\models\FrontendLoginForm;
-use Yii;
-use yii\base\InvalidParamException;
-use yii\web\BadRequestHttpException;
-use yii\web\Controller;
-use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
-use common\models\LoginForm;
+use frontend\models\ContactForm;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
-use frontend\models\ContactForm;
-use common\models\Topic;
-use common\models\Comment;
+use Yii;
+use yii\base\InvalidParamException;
+use yii\filters\AccessControl;
+use yii\filters\VerbFilter;
+use yii\web\BadRequestHttpException;
+use yii\web\Controller;
 
 /**
  * Site controller
@@ -80,13 +76,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $data['topiclist'] = Topic::find()->where(['<', 'status', 5])->with('user')->with('looks')->limit(20)->all();
-
         return $this->render('index', $data);
     }
-
-
-
 
     /**
      * Logs in a user.
@@ -120,7 +111,6 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
-
 
     /**
      * Signs user up.
@@ -192,7 +182,6 @@ class SiteController extends Controller
         ]);
     }
 
-
     /**
      * Displays contact page.
      *
@@ -225,6 +214,5 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
-
 
 }
