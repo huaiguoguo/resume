@@ -1,17 +1,17 @@
 <?php
-use yii\helpers\Html;
 use frontend\assets\AppAsset;
+use yii\helpers\Html;
 AppAsset::register($this);
 ?>
 
-<?php $this->beginPage() ?>
+<?php $this->beginPage()?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="<?=Yii::$app->language?>">
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
-    <title><?= Html::encode($this->title); ?>tttt</title>
+    <meta charset="<?=Yii::$app->charset?>">
+    <title><?=Html::encode($this->title);?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <?= Html::csrfMetaTags() ?>
+    <?=Html::csrfMetaTags()?>
 
 
     <link rel="shortcut icon" href="http://www.redefin.io/wp-content/themes/redefinio/favicon.ico" type="image/x-icon"/>
@@ -132,7 +132,7 @@ AppAsset::register($this);
     <link rel="alternate" type="text/xml+oembed"
           href="http://www.redefin.io/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.redefin.io%2F&#038;format=xml"/>
     -->
-    <?php $this->head() ?>
+    <?php $this->head()?>
 
 
 </head>
@@ -141,14 +141,14 @@ AppAsset::register($this);
 <body class="home page page-id-2 page-template page-template-front-page page-template-front-page-php">
 
 
-<?php $this->beginBody() ?>
+<?php $this->beginBody()?>
 
 
-<?= $content; ?>
+<?=$content;?>
 
 
-<?php $this->endBody() ?>
+<?php $this->endBody()?>
 
 </body>
 </html>
-<?php $this->endPage() ?>
+<?php $this->endPage()?>
