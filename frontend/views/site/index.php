@@ -3,17 +3,15 @@
 /* @var $this yii\web\View */
 
 use yii\web\View;
-use frontend\assets\AppAsset;
-use \yii\helpers\Url;
 
-$this->title = 'professional';
+$this->title = '云简历';
 ?>
 
 
 <div id="top">
     <div class="container">
         <a href="http://www.redefin.io/#header" class="logo" title="Redefinio — Free CV builder online">
-
+<!--
             <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
                  xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -57,7 +55,7 @@ $this->title = 'professional';
                           sodipodi:nodetypes="csssccscsssscsssscsssscssscccccsccssccccssccscssccsssccsssccsssccsssssssccccssssssssccssssssscscssscsscssssccsssccsssccsccssccccssccscssccsssccssssssccccccssccsssssssssssccssscsssssssss"/>
                 </g>
             </svg>
-
+-->
         </a>
         <nav>
             <ul id="menu-main-menu" class="nav">
@@ -258,7 +256,7 @@ $this->title = 'professional';
 <script type='text/javascript' src='http://www.redefin.io/wp-includes/js/wp-embed.min.js?ver=4.5.4'></script>
 
 
-<?php  $this->beginBlock('footable'); ?>
+<?php $this->beginBlock('footable');?>
 
 
 <?php
