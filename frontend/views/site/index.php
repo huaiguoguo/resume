@@ -10,8 +10,8 @@ $this->title = '云简历';
 
 <div id="top">
     <div class="container">
-        <a href="http://www.redefin.io/#header" class="logo" title="Redefinio — Free CV builder online">
-<!--
+        <a href="/#header" class="logo" title="Redefinio — Free CV builder online">
+
             <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
                  xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -39,6 +39,7 @@ $this->title = '云简历';
                 <rect id="backgroundrect" width="140" height="38.300987243652344" x="149.27659606933594"
                       y="40.8388671875" class="selected" style="fill: none; stroke: none;"/>
                 <g class="currentLayer" id="g3339">
+                <!--
                     <title id="title3341" transform="matrix(0.32051282,0,0,0.32348808,148.97105,40.651168) "
                            stroke-width="0">Layer 1</title>
                 </g>
@@ -54,8 +55,9 @@ $this->title = '云简历';
                           class="g1_3" inkscape:connector-curvature="0"
                           sodipodi:nodetypes="csssccscsssscsssscsssscssscccccsccssccccssccscssccsssccsssccsssccsssssssccccssssssssccssssssscscssscsscssssccsssccsssccsccssccccssccscssccsssccssssssccccccssccsssssssssssccssscsssssssss"/>
                 </g>
+                -->
             </svg>
--->
+
         </a>
         <nav>
             <ul id="menu-main-menu" class="nav">
@@ -97,7 +99,7 @@ $this->title = '云简历';
     </div>
 
     <div class="paper visible-xs">
-        <img src="http://www.redefin.io/wp-content/themes/redefinio/assets/img/cv_new@2x.jpg" class="img-responsive"
+        <img src="/img/cv_new@2x.jpg" class="img-responsive"
              alt="">
     </div>
 </header>
@@ -200,18 +202,18 @@ $this->title = '云简历';
 
 <footer>
     <div class="container">
-        Copyright © Redefinio 2016
+        Copyright © phpdx.cn 2016
 
         <ul class="socials">
             <li>
                 <a href="https://facebook.com/redefinio" target="_blank">
-                    <img src="http://www.redefin.io/wp-content/uploads/2016/04/social-facebook.png"
+                    <img src="/img/social-facebook.png"
                          class="img-responsive" alt="">
                 </a>
             </li>
             <li>
                 <a href="https://twitter.com/redefinio" target="_blank">
-                    <img src="http://www.redefin.io/wp-content/uploads/2016/04/social-twitter.png"
+                    <img src="/img/social-twitter.png"
                          class="img-responsive" alt="">
                 </a>
             </li>
@@ -232,7 +234,7 @@ $this->title = '云简历';
                     <div class="title">感谢你的对此产生兴趣</div>
                     <div class="text">
                         <p>请输入您的电子邮件，并在第一个建立一个令人敬畏的个人简历
-                            <a href="#">Redefinio</a> 完全免费.</p>
+                            <a href="#">Resume</a> 完全免费.</p>
                     </div>
                     <div class="subform">
                         <script type="text/javascript"
