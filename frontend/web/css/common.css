@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+.containe {
+    border: 0px solid blue;
+    width: 1000px;
+    margin: auto;
+    margin-top:100px;
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: row;
+}
+
+/******
+左侧部分样式
+*/
+.info_left {
+    color: white;
+
+    background-color: #e55f41;
+    border: 0px solid rebeccapurple;
+
+    flex: 2;
+    display: inline-block;
+    vertical-align: top;
+    horiz-align: left;
+}
+
+.left {
+    width: 90%;
+    border: 0px solid yellowgreen;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+    border: 0px solid blue;
+    margin: auto;
+    padding-top: 20px;
+    box-sizing: content-box;
+}
+
+.pic > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+
+.summuny {
+    width: 100%;
+    border: 0px solid antiquewhite;
+    text-align: center;
+}
+
+.summuny > span, .skills > span, .profile > span {
+    display: inline-block;
+    border-bottom: 2px solid white;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/****右侧部分样式*/
+.experience_right {
+    background-color: #fff;
+    flex: 6;
+}
+
+.expreience {
+    border: 0px solid rebeccapurple;
+    width: 95%;
+    padding-left: 20px;
+}
+
+.company_experience > span, .work_experience > span, .education_experience > span, .certificates > span {
+    display: inline-block;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.company_experience .company_list {
+    width: 100%;
+    /*background-color: #ff68fb;*/
+}
+
+.company_list .lis {
+    width: 100%;
+    /*background-color: #000099;*/
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.company_list .lis > .left, .company_list .lis > .right {
+    display: inline-block;
+}
+
+.company_list .lis > .left {
+    width: 30%;
+    /*background-color: bisque;*/
+}
+
+.company_list .lis > .right {
+    width: 69%;
+    /*background-color: bisque;*/
+}
+
+
+
+
+
+
+
+
+
+
+/**工作经历***/
+.work_list .lis {
+
+    display: -webkit-flex;
+    display: flex;
+
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+
+    border: 0px solid blue;
+    /*background-color: #000099;*/
+    margin: auto;
+    margin-bottom: 20px;
+    /*text-align: left;*/
+}
+
+
+.work_list .lis .left {
+    flex: 2;
+    -webkit-align-self:flex-end;
+    align-self: flex-end;
+
+    height: 100px;
+    /*background-color: bisque;*/
+    border: 0px solid lightcoral;
+}
+
+.work_list .lis .right {
+    flex: 5;
+    -webkit-align-self:flex-end;
+    align-self: flex-end;
+
+    height: 100px;
+    /*background-color: bisque;*/
+    border: 0px solid lightcoral;
+
+}
+
+.work_list .lis .right span {
+    font-weight: bold;
+}
+
+
+
+
+/*教育经历*/
+
+.education_list .lis {
+    width: 100%;
+    /*background-color: #000099;*/
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    /*flex-direction:row;*/
+    /*justify-content: flex-start;*/
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.education_list .lis .left, .work_list .lis .right {
+    display: inline-block;
+}
+
+.education_list .lis .left {
+    flex: 2;
+    vertical-align: top;
+    height: 100px;
+    /*background-color: bisque;*/
+    border: 0px solid lightcoral;
+}
+
+.education_list .lis .left span {
+    display: block;
+
+}
+
+.education_list .lis .right {
+    flex: 5;
+    height: 100px;
+    /*background-color: bisque;*/
+}

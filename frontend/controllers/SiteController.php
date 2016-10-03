@@ -21,7 +21,6 @@ class SiteController extends Controller
     /**
      * @inheritdoc
      */
-    public $layout = 'main';
     public function behaviors()
     {
         return [
@@ -79,6 +78,28 @@ class SiteController extends Controller
         $data = [];
         return $this->render('index');
     }
+
+
+
+    /**
+     * Displays homepage.
+     *
+     * @return mixed
+     */
+    public function actionCreate()
+    {
+        $data = [];
+        return $this->render('create');
+    }
+
+
+    public function actionPreview(){
+        $data = [];
+        return $this->render('preview');
+    }
+
+
+
 
     /**
      * Logs in a user.
