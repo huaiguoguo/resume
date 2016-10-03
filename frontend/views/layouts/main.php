@@ -543,7 +543,7 @@ AppAsset::register($this);
                                             <input type="hidden" name="ml-submit" value="1">
 
 
-                                            <button type="submit" class="primary">
+                                            <button type="button" class="primary">
                                                 注册
                                             </button>
 
