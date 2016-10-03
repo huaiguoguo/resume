@@ -524,8 +524,8 @@ AppAsset::register($this);
                                         </div>
 
                                     </div>
-
-                                    <form class="ml-block-form" action="//app.mailerlite.com/webforms/submit/c8x6t3"
+<!--                                    //app.mailerlite.com/webforms/submit/c8x6t3-->
+                                    <form class="ml-block-form" action=""
                                           data-id="102445" data-code="c8x6t3" method="POST" target="_blank">
 
 
